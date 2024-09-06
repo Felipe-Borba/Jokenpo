@@ -82,7 +82,7 @@ class _BodyState extends State<Body> {
   }
 
   void _clearState() {
-    Future.delayed(const Duration(seconds: 2), () {
+    Future.delayed(const Duration(seconds: 20), () {
       setState(() {
         _computerMove = null;
         _userWin = null;
