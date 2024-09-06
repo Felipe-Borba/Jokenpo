@@ -8,9 +8,7 @@ void main() {
     debugShowCheckedModeBanner: false,
     theme: ThemeData(
       useMaterial3: false,
-      primarySwatch: Colors.red,
+      scaffoldBackgroundColor: Colors.green[50],
     ),
   ));
 }
-
-
